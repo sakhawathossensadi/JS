@@ -12,7 +12,7 @@ function kilometerToMeter(kilometer) {
     }
 }
 
-var result = kilometerToMeter(13.325);
+var result = kilometerToMeter(17.3265);
 console.log(result);
 
 
@@ -34,7 +34,7 @@ function budgetCalculator(amountOfWatch,amountOfMobile,amountOfLaptop)
     }
 }
 
-var result = budgetCalculator(17,23,15);
+var result = budgetCalculator(1,2,11);
 console.log(result);
 
 
@@ -68,7 +68,7 @@ function hotelCost(numberOfDays) {
     }
 }
 
-var result = hotelCost(29);
+var result = hotelCost(31);
 console.log(result);
 
 
@@ -97,6 +97,6 @@ function megaFriend(friendsList)
     }
 }
 
-var friendNameList = ["ahkjsa sahf hjd","Sakhawat Hossen Sadi","haff ashasf as","sjag sahfs"];
+var friendNameList = ["jamal Uddin","Sakhawat Hossen Sadi","haff ashasf as","sjag sahfs"];
 var friendName = megaFriend(friendNameList);
 console.log(friendName);
